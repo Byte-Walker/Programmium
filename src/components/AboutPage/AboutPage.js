@@ -5,6 +5,7 @@ const AboutPage = () => {
     return (
         <div className="max-width">
             <div className="grid grid-cols-2 gap-4 place-items-center my-24">
+                {/* Left side content */}
                 <div>
                     <h1 className="text-5xl font-bold text-blue-600 my-6">
                         About Us
@@ -21,6 +22,8 @@ const AboutPage = () => {
                     <h5 className="font-semibold text-gray-500 mb-3">
                         Don't forget to subscribe to our newsletter
                     </h5>
+
+                    {/* Email submission form */}
                     <form className="p-2 rounded bg-white inline-block border border-blue-300">
                         <input
                             className="h-10 px-4 mr-3 w-96 bg-white outline-none rounded"
@@ -33,6 +36,8 @@ const AboutPage = () => {
                         </button>
                     </form>
                 </div>
+
+                {/* Right side image */}
                 <img src={IllustrationTeam} alt="Team work" />
             </div>
         </div>

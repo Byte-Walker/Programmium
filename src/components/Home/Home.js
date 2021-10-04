@@ -5,6 +5,7 @@ import MiddleBar from '../MiddleBar/MiddleBar';
 
 const Home = () => {
     return (
+        // Building home page
         <>
             <Featured />
             <MiddleBar />
