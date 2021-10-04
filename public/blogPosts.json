@@ -1,0 +1,50 @@
+[
+    {
+        "title": "A new way to solve the ‘hardest of the hard’ computer problems",
+        "date": "September 21, 2021",
+        "source": "Ohio State University",
+        "summary": "Researchers have found a way to make what is called reservoir computing work between 33 and a million times faster, with significantly fewer computing resources and less data input needed.",
+        "thumbnail": "https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2019Q1/problem-solving/what-is-problem-solving-header@2x.png",
+        "link": "https://www.sciencedaily.com/releases/2021/09/210921081010.htm"
+    },
+    {
+        "title": "A universal system for decoding any type of data sent across a network",
+        "date": "September 10, 2021",
+        "source": "Massachusetts Institute of Technology",
+        "summary": "A new silicon chip can decode any error-correcting code through the use of a novel algorithm known as Guessing Random Additive Noise Decoding (GRAND).",
+        "thumbnail": "data:image/png;base64,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",
+        "link": "https://www.sciencedaily.com/releases/2021/09/210910121725.htm"
+    },
+    {
+        "title": "Progress in algorithms makes small, noisy quantum computers viable",
+        "date": "August 13, 2021",
+        "source": "Los Alamos National Laboratory",
+        "summary": "Instead of waiting for fully mature quantum computers to emerge, researchers have developed hybrid classical/quantum algorithms to extract the most performance -- and potentially quantum advantage -- from today's noisy, error-prone hardware.",
+        "thumbnail": "https://static.scientificamerican.com/sciam/cache/file/4C23B61F-9D3A-46D6-BA41EB5C4927607E_source.jpg",
+        "link": "https://www.sciencedaily.com/releases/2021/08/210813100316.htm"
+    },
+    {
+        "title": "Is your mobile provider tracking your location? New technology could stop it",
+        "date": "August 12, 2021",
+        "source": "University of Southern California",
+        "summary": "Right now, there is a good chance your phone is tracking your location -- even with GPS services turned off. That's because, to receive service, our phones reveal personal identifiers to cell towers owned by major network operators. This has led to vast and largely unregulated data-harvesting industries based around selling users' location data to third parties without consent. For the first time, researchers have found a way to stop this privacy breach using existing cellular networks. The new system protects users' mobile privacy while providing normal mobile connectivity.",
+        "thumbnail": "https://geoworkforcesolutions.com/wp-content/uploads/2019/10/What-is-location-tracking_.png",
+        "link": "https://www.sciencedaily.com/releases/2021/08/210812135929.htm"
+    },
+    {
+        "title": "New algorithm flies drones faster than human racing pilots can",
+        "date": "July 21, 2021",
+        "source": "University of Zurich",
+        "summary": "For the first time an autonomously flying quadrotor has outperformed two human pilots in a drone race. The success is based on a novel algorithm that calculates time-optimal trajectories that fully consider the drones' limitations.",
+        "thumbnail": "https://previews.123rf.com/images/bonumopus/bonumopus1802/bonumopus180200243/96283454-remote-control-air-drone-illustration-on-blue-background-.jpg",
+        "link": "https://www.sciencedaily.com/releases/2021/07/210721142013.htm"
+    },
+    {
+        "title": "Scientists create a labor-saving automated method for studying electronic health records",
+        "date": "September 2, 2021",
+        "source": "The Mount Sinai Hospital",
+        "summary": "A new, automated, artificial intelligence-based algorithm can learn to read patient data from electronic health records. In a side-by-side comparison, scientists showed that their method accurately identified patients with certain diseases as well as the traditional, 'gold-standard' method, which requires much more manual labor to develop and perform.",
+        "thumbnail": "https://www.aamc.org/sites/default/files/styles/scale_and_crop_1200_x_666/public/d/1/94-portable_ehr_story.jpg__992x558_q85_crop-smart_subsampling-2_upscale.jpg?itok=AhTchb2G",
+        "link": "https://www.sciencedaily.com/releases/2021/09/210902125116.htm"
+    }
+]

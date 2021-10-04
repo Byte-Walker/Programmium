@@ -6,6 +6,7 @@ import Footer from './components/Footer/Footer';
 import CoursesPage from './components/CoursesPage/CoursesPage';
 import NotFound from './components/NotFound/NotFound';
 import AboutPage from './components/AboutPage/AboutPage';
+import BlogPage from './components/BlogPage/BlogPage';
 
 function App() {
     return (
@@ -17,6 +18,9 @@ function App() {
                 </Route>
                 <Route exact path="/about">
                     <AboutPage />
+                </Route>
+                <Route exact path="/blog">
+                    <BlogPage />
                 </Route>
                 <Route exact path="/">
                     <Home />

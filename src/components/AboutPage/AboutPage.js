@@ -23,12 +23,12 @@ const AboutPage = () => {
                     </h5>
                     <form className="p-2 rounded bg-white inline-block border border-blue-300">
                         <input
-                            className="h-10 px-4 mr-3 w-96 bg-white"
+                            className="h-10 px-4 mr-3 w-96 bg-white outline-none rounded"
                             type="email"
                             name="search-box"
                             placeholder="Your Email"
                         />
-                        <button className="py-3 px-5 bg-blue-200 text-blue-700 font-medium rounded hover:bg-blue-600 hover:text-white transition-all duration-300">
+                        <button className="py-3 px-5 bg-blue-200 text-blue-700 border border-blue-300 font-medium rounded hover:bg-blue-600 hover:text-white transition-all duration-300">
                             Subscribe
                         </button>
                     </form>

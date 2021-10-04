@@ -18,9 +18,9 @@ const Header = () => {
                 {/* Middle section */}
                 <div className="flex align-center">
                     {/* Search bar */}
-                    <div className="p-2 rounded bg-gray-100">
+                    <div className="p-2 rounded bg-gray-100 border border-blue-100">
                         <input
-                            className="h-10 px-4 mr-3 bg-gray-100"
+                            className="h-10 px-4 mr-3 bg-gray-100 outline-none"
                             type="text"
                             name="search-box"
                             placeholder="Search..."

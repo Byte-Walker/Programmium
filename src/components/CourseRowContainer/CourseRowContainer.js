@@ -6,7 +6,7 @@ const CourseRowContainer = () => {
     const [courses] = useCourses();
     return (
         <div className="bg-white py-20">
-            <div className="max-width grid grid-cols-1 divide-y divide-gray-200">
+            <div className="max-width grid grid-cols-1 divide-y divide-gray-200 border px-6 rounded-lg">
                 {courses.map((course) => (
                     <CourseRowCard course={course} />
                 ))}
