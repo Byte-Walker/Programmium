@@ -7,30 +7,54 @@ import CoursesPage from './components/CoursesPage/CoursesPage';
 import NotFound from './components/NotFound/NotFound';
 import AboutPage from './components/AboutPage/AboutPage';
 import BlogPage from './components/BlogPage/BlogPage';
+import SignUp from './components/Authentication/SignUp';
+import LogIn from './components/Authentication/LogIn';
+import AuthProvider from './AuthProvider/AuthProvider';
 
 function App() {
     return (
-        <Router>
-            <Header />
-            <Switch>
-                <Route exact path="/courses">
-                    <CoursesPage />
-                </Route>
-                <Route exact path="/about">
-                    <AboutPage />
-                </Route>
-                <Route exact path="/blog">
-                    <BlogPage />
-                </Route>
-                <Route exact path="/">
-                    <Home />
-                </Route>
-                <Route path="*">
-                    <NotFound />
-                </Route>
-            </Switch>
-            <Footer />
-        </Router>
+        <AuthProvider>
+            <Router>
+                <Header />
+                <Switch>
+                    {/* Sign up page */}
+                    <Route exact path="/signup">
+                        <SignUp />
+                    </Route>
+
+                    {/* Login page */}
+                    <Route exact path="/login">
+                        <LogIn />
+                    </Route>
+
+                    {/* Courses page */}
+                    <Route exact path="/courses">
+                        <CoursesPage />
+                    </Route>
+
+                    {/* About page */}
+                    <Route exact path="/about">
+                        <AboutPage />
+                    </Route>
+
+                    {/* Blog page */}
+                    <Route exact path="/blog">
+                        <BlogPage />
+                    </Route>
+
+                    {/* Home page */}
+                    <Route exact path="/">
+                        <Home />
+                    </Route>
+
+                    {/* Not Found page */}
+                    <Route path="*">
+                        <NotFound />
+                    </Route>
+                </Switch>
+                <Footer />
+            </Router>
+        </AuthProvider>
     );
 }
 

@@ -1,8 +1,10 @@
-import React from 'react';
 import logo from '../../resources/programmium-logo.svg';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
+import Avatar from '../../Avatar/Avatar';
+import useAuth from '../hooks/useAuth';
 
 const Header = () => {
+    const {user, isLoggedIn, signOutUser} = useAuth();
     return (
         // Header container
         <div className="p-4 shadow-lg">
@@ -78,14 +80,24 @@ const Header = () => {
                 <div className="bg-gray-300 h-10 w-px"></div>
 
                 {/* Right section buttons */}
-                <div>
-                    <button className="py-3 px-5 font-medium hover:text-blue-600 hover:underline">
-                        Log In
-                    </button>
-                    <button className="py-3 px-5 bg-blue-100 text-blue-600 font-medium rounded hover:bg-blue-600 hover:text-white transition-all duration-300">
-                        Sign up
-                    </button>
-                </div>
+                {isLoggedIn ? (
+                    <Avatar photoURL={user.photoURL} signOut={signOutUser}/>
+                ) : (
+                    <div>
+                        <Link
+                            to="/login"
+                            className="py-3 px-5 font-medium hover:text-blue-600 hover:underline"
+                        >
+                            Log In
+                        </Link>
+                        <Link
+                            to="/signup"
+                            className="py-3 px-5 bg-blue-100 text-blue-600 font-medium rounded hover:bg-blue-600 hover:text-white transition-all duration-300"
+                        >
+                            Sign up
+                        </Link>
+                    </div>
+                )}
             </div>
         </div>
     );
